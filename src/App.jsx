@@ -72,7 +72,7 @@ function Intro({ onEnter }) {
 
 function ResumeLink() {
   return (
-    <a className="profile-action" href="/assets/resume.pdf" target="_blank" rel="noreferrer">
+    <a className="profile-action" href={`${import.meta.env.BASE_URL}assets/resume.pdf`} target="_blank" rel="noreferrer">
       Resume (PDF) <span aria-hidden="true">↗</span>
     </a>
   );

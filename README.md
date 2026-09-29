@@ -35,11 +35,17 @@ The generated site is written to `dist\`.
 ## Repository and deployment
 
 The source repository is
-[github.com/sumiya15/portfolio](https://github.com/sumiya15/portfolio). This is
-a static Vite site; `vercel.json` configures `npm run build` and `dist\` as the
-build command and output directory. No public deployment URL has been verified,
-so a successful build or push should not be treated as proof that the site is
-live.
+[github.com/sumiya15/portfolio](https://github.com/sumiya15/portfolio). GitHub
+Pages deployment uses the `Deploy portfolio to GitHub Pages` workflow, which
+builds the site with `npm ci` and `npm run build`, then publishes `dist\`.
+For a project repository, Vite uses `/portfolio/` as the production base path;
+local builds keep `/`.
+
+To enable deployment, open the repository's **Settings → Pages** page, set the
+build and deployment source to **GitHub Actions**, and save. Pushes to `main`
+then deploy automatically. The public URL is
+`https://sumiya15.github.io/portfolio/` once the first workflow completes
+successfully. Check the Actions run before sharing the URL.
 
 ## Current experience
 
