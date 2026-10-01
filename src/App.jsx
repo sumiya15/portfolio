@@ -178,7 +178,7 @@ function Destination({ view, onSwitch, headingRef }) {
                   <a className="profile-action" href="https://github.com/sumiya15" target="_blank" rel="noreferrer">
                     GitHub <span aria-hidden="true">↗</span>
                   </a>
-                  <a className="profile-action" href="https://www.linkedin.com/in/shaiksumiya" target="_blank" rel="noreferrer">
+                  <a className="profile-action" href="https://www.linkedin.com/in/sumiya-shaik-b4a8b0324" target="_blank" rel="noreferrer">
                     LinkedIn <span aria-hidden="true">↗</span>
                   </a>
                   <a className="profile-action" href="mailto:sumiyashaikat15@gmail.com">
